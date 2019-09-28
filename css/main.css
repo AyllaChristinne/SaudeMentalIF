@@ -1,0 +1,562 @@
+﻿html {
+	font-family: "Josefin Sans";
+	-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+}
+
+body{
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FFE066;
+}
+
+input[type=text], input[type=submit], textarea {
+	margin: 4px;
+	background: #ffffff;
+	border: solid 1px  #a8a8a8;
+	border-radius: 3px;
+	color: #1B1B1E;
+	font-size: inherit;
+	padding: 10px;
+	height: 25px;
+}
+ 
+input[type=submit]{
+	height: 30px;
+	border: none;
+	background: #1B1B1E;
+	border-color: transparent;
+	border-radius: 3px;
+	color: white;
+	padding-left: 1.2em;
+	padding-right: 1.2em;
+	-webkit-transition: background 90ms ease-in-out, box-shadow 200ms ease-in-out;
+		transition: background 90ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+
+input[type=submit]:active{
+	box-shadow: 0 0 0 5px rgba(220, 223, 228, 0.8);
+	outline: 0;
+}
+
+input[type=submit]:focus{
+	box-shadow: 0 0 0 5px rgba(220, 223, 228, 0.8);
+}
+
+input[type=submit]:hover{
+	background: #5f5f5f;
+}
+
+p{
+  text-align: justify;
+  text-indent: 2em;
+}
+
+input {
+  outline: none;
+}
+
+input, textarea{
+	font: inherit;
+	width: 350px;
+	height: 150px;
+	margin-top: 4px;
+	padding: 10px;
+	border: 1px solid #a8a8a8;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 4px 0px #F6C74C inset;
+	box-shadow: 0px 1px 4px 0px #F6C74C inset;
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+input[type=submit]{
+  width: 80px!important;
+  cursor: pointer;  
+  background: rgb(246,199,76);
+  padding: 0px 0px;
+  color: #fff;
+  font-size: 15px;     
+  margin-bottom: 10px;  
+  text-shadow: 0 1px 1px #F6C74C;
+ 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+ 
+  transition: all 0.2s linear;
+}
+
+input[type=submit]:hover{
+  background: #FFD23F;
+}
+
+::-webkit-input-placeholder  {
+  color: #bebcbc; 
+}
+ 
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+  color: #bebcbc;
+}
+
+section{
+	overflow: scroll;
+	position: relative;
+}
+
+hr{
+	border-width: 0; 
+	height: 1px;
+	border-top-width: 1px;
+}
+
+#banner{
+	width: 50%;
+	top:13%;
+	left:14%;
+	position: relative;
+	display: inline-block;
+	margin-left:auto;
+}
+
+#logoif{
+	margin-left: 20px;
+	float: left;
+	width: 10px;
+}
+
+#esquerda{
+	display: none;
+}
+
+#dir-direita{
+	display: none;	
+}
+
+#banner{
+    position: relative;
+    display: inline-block;
+    margin-left:auto;
+}
+
+#logoif{
+	padding: 1em;
+	margin-left: 20px;
+	float: left;
+	width: 90px;
+	 position: relative;
+    display: inline-block;
+    margin-left:auto;
+}
+
+#fundo, #FormMensagens, #formDiv{
+	padding-top: 5px;
+	margin-left: 3.9%;
+    margin-right: 3.3%;
+    border-radius: 10px;
+    border: 2px solid #FDFD96;
+	background-color: #FDFD96;
+}
+
+.main{
+	margin: 0 auto;
+	width: 960px;
+	position: relative;
+}
+
+#header{
+	width: 100%;
+	height: auto;
+	padding-top: 10px;
+}
+
+#direita{
+	float: left;
+	width: 76%;
+	background-color: #FFE066;
+	margin-bottom: 10px;
+}
+
+#dir-direita{
+	float: left;
+	width: auto;
+}
+
+#footer{
+	clear: both;
+	width: 100%;
+	display: none;
+}
+
+.text-style{ /*Ola tudo bem?*/
+	text-indent: 1.6em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 36px;
+}
+
+.text-style1{ /*paragrafo de texto*/ 
+	line-height: 1.5;
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-top: 0px;
+	font-size: 20px;
+}
+
+.text-style2{ /*Mensagens Postadas && Deixe uma mensagem*/
+	text-indent: 0.7em;
+	font-size: 32px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+#ligue{
+	margin-top: 2em;
+	float: right;
+	width: 250px;
+	height: 200px;
+}
+
+#gentileza{
+	margin-top: 2em;
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+#FormMensagens, #formDiv{
+	margin-top: 10px;
+	padding: 2em;
+	max-height: 420px;
+}
+
+#mensagens{
+	max-height: 400px;
+	margin-top: 10px;
+}
+
+[style=scroll]{
+	float: right;
+}
+
+#form {
+  margin: 0 auto;
+}
+
+#NOME{
+	text-align: justify;
+	font-size: 22px;
+	margin-left: 1em;
+	max-width: 600px;
+	height: 30px;
+	line-height: 15px;
+}
+
+#MSG{
+	font-size: 18px;
+	margin-left: 1.3em;
+	max-width: 90%;
+	text-align: justify;
+}
+
+#DATA{
+	font-size: 18px;
+	float: right;
+}
+
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+}
+
+/* Cor do indicador de rolagem */
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #BAC0C4;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-corner{
+	border-radius: 3px;
+}
+
+/*LAYOUT SMARTPHONES*/
+@media (min-width: 20px) and (max-width: 520px){
+	#esquerda{
+		display: none !important;
+	}
+
+	#dir-direita{
+		display: none !important;	
+	}
+
+	#direita{
+		width: 100%;
+	}
+
+	#footer{
+		display: inline-block !important;
+	}
+
+	#header{
+		width: 100%;
+		height: 60px;
+		padding-top: 10px;
+	}
+
+	#banner{
+	    width: 60%;
+	    top:13%;
+	    left:12%;
+	    position: relative;
+	    display: inline-block;
+	    margin-left:auto;
+	}
+
+	#gentilezaft{
+		width: 100%;
+	    top:13%;
+	    position: relative;
+	    display: inline-block;
+	    margin-left:auto;
+	}
+
+	#logoif{
+		width: 10%;
+		top:13%;
+	    left:5%;
+		padding: 0px;
+		position: relative;
+	    display: inline-block;
+	}
+
+
+	#fundo, #FormMensagens, #formDiv{
+		padding-top: 5px;
+		margin-left: 3.9%;
+	    margin-right: 3.3%;
+	    border-radius: 10px;
+	    border: 2px solid #FDFD96;
+		background-color: #FDFD96;
+		margin-top: 10px;
+	}
+
+	#fundo{
+		margin-top: 25px;
+	}
+
+	#mensagens{
+		max-height: 400px;
+		margin-top: 10px;
+	}
+
+	input{
+		width: 100%;
+		max-width: 350px;
+		min-width: 80px;
+	}
+}
+
+@media (min-width: 521px) and (max-width: 1279px){
+	#header{
+		width: 100%;
+		height: auto;
+		padding-top: 10px;
+	}
+
+	#footer{
+		display: inline-block;
+	}
+
+	#banner{
+	    width: 60%;
+	    top:13%;
+	    left:12%;
+	    position: relative;
+	    display: inline-block;
+	    margin-left:auto;
+	}
+
+	#gentilezaft{
+		width: 100%;
+	    top:13%;
+	    position: relative;
+	    display: inline-block;
+	    margin-left:auto;
+	}
+
+	#logoif{
+		width: 10%;
+		top:13%;
+	    left:5%;
+		padding: 0px;
+		position: relative;
+	    display: inline-block;
+	}
+
+
+	#direita{
+		width: 100%;
+	}
+}
+
+@media (min-width: 1280px) {
+	#banner{
+	    position: relative;
+	    display: inline-block;
+	    margin-left:auto;
+	}
+
+	#logoif{
+		padding: 1em;
+		margin-left: 20px;
+		float: left;
+		width: 90px;
+	}
+
+	#fundo, #FormMensagens, #formDiv{
+		padding-top: 5px;
+		margin-left: 3.9%;
+	    margin-right: 3.3%;
+	    border-radius: 10px;
+	    border: 2px solid #FDFD96;
+		background-color: #FDFD96;
+	}
+
+	#fundo, #FormMensagens, #formDiv{
+		padding-top: 5px;
+		margin-left: 3.9%;
+	    margin-right: 3.3%;
+	    border-radius: 10px;
+	    border: 2px solid #FDFD96;
+		background-color: #FDFD96;
+	}
+
+	.main{
+		margin: 0 auto;
+		width: 960px;
+		position: relative;
+	}
+
+	#header{
+		width: 100%;
+		height: auto;
+		padding-top: 10px;
+	}
+
+
+	#esquerda{
+		display: block !important;
+		float: left;
+		width: 22%;
+		padding: 1px;
+	}
+
+	#direita{	
+		float: left;
+		width: 76%;
+		background-color: #FFE066;
+	}
+
+	#dir-centro{
+		float: left;
+		width: 70%;
+		background: #FFE066;	
+	}
+
+	#dir-direita{
+		display: block !important;
+		float: left;
+		width: auto;
+	}
+
+	#footer{
+		display: none;
+	}
+
+	.text-style{ /*Ola tudo bem?*/
+		text-indent: 1.6em;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		font-size: 36px;
+	}
+
+	.text-style1{ /*paragrafo de texto*/ 
+		line-height: 1.5;
+		margin-left: 6%;
+		margin-right: 6%;
+		margin-top: 0px;
+		font-size: 20px;
+	}
+
+	.text-style2{ /*Mensagens Postadas && Deixe uma mensagem*/
+		text-indent: 0.7em;
+		font-size: 32px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		margin-top: 5px;
+	}
+
+	#ligue{
+		margin-top: 2em;
+		float: right;
+		width: 250px;
+		height: 200px;
+	}
+
+	#gentileza{
+		margin-top: 2em;
+		float: left;
+		width: auto;
+		height: auto;
+	}
+
+	#FormMensagens, #formDiv{
+		margin-top: 10px;
+		padding: 2em;
+		max-height: 420px;
+	}
+
+	#mensagens{
+		max-height: 400px;
+		margin-top: 10px;
+	}
+
+	[style=scroll]{
+		float: right;
+	}
+
+	#form {
+	  margin: 0 auto;
+	}
+
+	#NOME{
+		text-align: justify;
+		font-size: 22px;
+		margin-left: 1em;
+		max-width: 600px;
+		height: 30px;
+		line-height: 15px;
+	}
+
+	#MSG{
+		font-size: 18px;
+		margin-left: 1.3em;
+		max-width: 90%;
+		text-align: justify;
+	}
+
+	#DATA{
+		font-size: 18px;
+		float: right;
+	}
+}
